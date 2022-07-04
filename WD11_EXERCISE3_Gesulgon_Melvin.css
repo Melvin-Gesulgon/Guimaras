@@ -1,0 +1,348 @@
+body { font-family: sans-serif; }
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #D3EBCD;
+}
+
+#main-menu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #839AA8;
+    padding: 10px;
+    padding-top: 0.5px;
+    z-index: 2;
+    margin: -8px -8px 0px;
+}
+
+#main-menu .nav-bar { 
+    list-style:none; 
+    margin-top: 40px; 
+    font-family: 'Abril Fatface', cursive;;
+    font-size: 30px;
+    color: red;    
+}
+
+
+#main-menu .nav-bar li { 
+    display:inline; 
+    padding:0 10px; 
+    
+}
+
+#main-menu .nav-bar li a {
+    text-decoration: none;
+    padding-left: 25px;
+    text-transform: uppercase;
+    color: #333;
+    text-shadow: 1px 1px 1px #ccc;
+    z-index: 1;
+}
+
+#Tour {
+    text-align: center;
+    font-size: 80px;
+    margin: 40px auto 10px;
+}
+
+#Adventure {
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+    }
+
+.firstDiv {
+    margin: 0px 38px 0px 38px;
+    background-color: #AEDBCE;
+    padding-bottom: 12px;
+    
+}
+
+.firstSection {
+    float:left;
+    background-color: #AEDBCE;
+    margin-left: 49px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 45px;
+    border-left: 16px;
+}
+
+.secondSection {
+    margin: 30px;
+    border: 30px;
+    padding: 71px;
+    padding-bottom: inherit;
+    padding-top: 28px;
+    overflow: hidden;
+    background-color: #AEDBCE;
+    overflow-y: auto;
+    font-size: 25px; 
+    
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    align-content: center;
+    color: #635666;
+
+}
+h2 {
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    color: #635666;
+    text-align: center;
+}
+
+.firstH1 {
+    display: inline-block;
+    width: 100%;
+    font-size: 51px;
+    text-align: center;
+    margin: 22px 0px 0px;
+}
+
+.imageBlock1 {
+    display: inline-block;
+    position: relative;
+    width:fit-content;
+    height: auto;
+}
+
+.secondDiv {
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.paragraph {
+    font-size: 25px;
+    margin: 0px 38px 0px 133px;
+    padding: 0px 96px;
+    display: inline-block;
+
+}
+
+.innerDiv {
+    background-color: #AEDBCE;
+    padding: 20px 20px;
+    margin: 0px 38px 48px 38px;
+}
+.video {
+    margin: 0 38px;
+    padding: 38px 10px;
+}
+
+img {
+   
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+.lighthouse {
+    text-align: center;
+    font-size: 30px;
+}
+
+.lighthouse-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 40px 40px 40px;
+    background-color: #AEDBCE;
+}
+
+.content-container {
+    padding: 10px 10px;
+    display: flex;
+    width: 50%vw;
+    background-color: #AEDBCE;
+}
+
+.content1 {
+    text-align: center;
+    padding: 30px 30px;
+    margin: 20px 10px 10px 10px;
+    justify-content: center;
+}
+
+.content2 {
+    text-align: center;
+    padding:30px 30px;
+    margin: 10px 10px;
+    justify-content: center;
+}
+
+/* Comment box */
+
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+  margin-top:30px;
+	margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #3498db;
+	color: #3498db;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #839AA8;
+}
+	
+.submit:hover {
+	color: #635666;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+/* end of comment box */
+
